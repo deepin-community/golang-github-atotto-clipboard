@@ -1,4 +1,11 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_EXCLUDES := cmd/
+export DH_GOLANG_INSTALL_EXTRA := go.mod
+
 %:
-	dh $@
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_test:
+	# These tests do not work in a chroot build environment without X
+	dh_auto_test -O--buildsystem=golang || :

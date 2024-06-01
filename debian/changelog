@@ -1,5 +1,30 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-atotto-clipboard (0.1.4-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream release.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Drew Parsons <dparsons@debian.org>  Wed, 09 Nov 2022 15:59:06 +0100
+
+golang-github-atotto-clipboard (0.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 0.1.2
+  * Switch to debhelper-compat and use v12
+  * Update Standards-Version to 4.4.0, no changes needed
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Sat, 28 Sep 2019 14:47:05 +0200
+
+golang-github-atotto-clipboard (0.1.1-1) unstable; urgency=medium
+
+  * New upstream version 0.1.1
+  * Update Maintainer address in debian/control
+  * Bump Standards-Version to 4.2.1 (no change)
+  * Install go.mod
+
+ -- Anthony Fok <foka@debian.org>  Thu, 20 Dec 2018 10:19:42 -0700
+
+golang-github-atotto-clipboard (0.0~git20180322.5e2c7bd-1) unstable; urgency=medium
+
+  * Initial release (Closes: #901573)
+
+ -- Anthony Fok <foka@debian.org>  Thu, 14 Jun 2018 20:21:31 -0600
